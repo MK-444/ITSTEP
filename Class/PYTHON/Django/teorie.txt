@@ -1,0 +1,20 @@
+architektura MVC = model view controler 
+
+Django ma ale MVT (nekdy  MTV)
+
+model je stale model, template je misto view 
+a view je misto controlleru 
+
+smerovac, router 
+
+databaze:
+2 typy: SQL a NoSQL
+
+authentication and autorization
+
+
+deployment
+-hosting provider - AWS, DIGITAL OCEAN, HEROKU, AZURE
+-databaze - SQL( MySQL, PostgressSQL, Mssql, SQLite = lehce smazat) vs NoSQL = nezajma nas 
+-staticke soubory - S3 Amazon
+-upravit nastaveni, plus stranky pro 404 a 500

@@ -1,0 +1,7 @@
+{% extends 'knihy/base.html' %}
+{% block title %}Podekovani{% endblock %}
+{% block content %}
+    <h1>Dekujeme za vlozeni nove knihy do databaze</h1>
+    <a href="{% url "formular" %}">Zpet na zadavani knizek</a>
+    {% comment %} <p>A na zaver perlicka: Jmeno meho slona je {{ jmeno_slona }}</p> {% endcomment %}
+{% endblock %}

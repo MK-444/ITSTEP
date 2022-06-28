@@ -1,0 +1,15 @@
+HTML - struktura
+zodpovědný za strukturu stranky a semantiku 
+
+
+značky = tagy
+
+<znacka>
+    tady je vnitřek značky
+</znacka>
+
+<neparova-znacka/>
+
+CSS - vzhled, Cascading style Sheet
+
+JavaScript - chování

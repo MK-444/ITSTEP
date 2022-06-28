@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.heart {
+    filter: grayscale(100%);
+    background-image: none !important;
+}
+
+.heart:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+}

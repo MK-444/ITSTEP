@@ -1,0 +1,32 @@
+ in json return complexjson.loads(self.text, **kwargs)
+in loads return _default_decoder.decode(s)
+ in decode in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Svitlana\Downloads\ihg4-bf-raw-2021.py", line 73, in parse
+    r.json()
+  File "C:\Users\Svitlana\Desktop\ITSTEP\env\lib\site-packages\requests\models.py", line 917, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: [Errno Expecting value] <HTML><HEAD>
+<TITLE>Access Denied</TITLE>
+</HEAD><BODY>
+<H1>Access Denied</H1>
+
+You don't have permission to access "http&#58;&#47;&#47;apis&#46;ihg&#46;com&#47;availability&#47;v2&#47;hotels&#47;offers&#63;" on this server.<P>
+Reference&#32;&#35;18&#46;f92645f&#46;1651495619&#46;e0145cde
+</BODY>
+</HTML>
+: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Svitlana\Downloads\ihg4-bf-raw-2021.py", line 90, in <module>
+    ls = parse(link, random.choice(user_agents),i)
+  File "c:\Users\Svitlana\Downloads\ihg4-bf-raw-2021.py", line 77, in parse
+    time.sleep(60)
+KeyboardInterrupt

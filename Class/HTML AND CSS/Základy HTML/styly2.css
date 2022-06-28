@@ -1,0 +1,41 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+#ja{
+    background-color: green;
+}
+
+/* div.obdelnik.muj#ja{
+    width: 500px;
+    height: 20px;
+    background-color: chocolate;
+} */
+
+
+.obdelnik{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid blue;
+    margin: 10px;
+    /* padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px; */
+    padding: 20px 40px 20px 30px;
+}
+
+/* .obdelnik{
+    width: 100px;
+} */
+
+
+span{
+    background-color: sandybrown;
+    padding: 50px;
+    border: 1px dashed red;
+    /* margin: 20px; */
+    display: inline-block;
+}
+

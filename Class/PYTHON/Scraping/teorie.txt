@@ -1,0 +1,21 @@
+web scraping 
+
+scrapovani webu
+
+1.) kazda stranka je unikatni 
+
+2.) kazda stranka se meni
+
+API!!!!
+
+
+poKud je API pouzijte API (usetrite si tim dost prace)
+
+https://cz.indeed.com/jobs?q=python 
+https://cz.indeed.com/jobs?q=html&l=brno&radius=10&jt=parttime
+https://cz.indeed.com/jobs?q=html&l=praha&radius=10&jt=
+https://www.expats.cz/jobs/offers/it-itc
+
+query strinkg 
+?klic1=hodnota1&klic2=hodnota2&klic3=hodnota3
+

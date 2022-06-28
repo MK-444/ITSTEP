@@ -1,0 +1,64 @@
+.prvni{
+    font-size: 20px;
+}
+.druhy{
+     font-size: 1.5em; /*1.5 krat vetsi nejblisiho  */
+}
+.treti{
+    font-size: 2rem; /*2 krat vetsi než rodič */
+}
+.ctvrty{
+    font-size: 4ex;
+}
+
+.obdelnik{
+    background-color: hsl(61, 100%, 50%);
+    width: 20%;
+    height: 100px;
+}
+.maly{
+    background-color: rgba(255, 0, 0, 0.5);
+    width: 50%;
+    height: 150px;
+}
+
+.velky{
+    background-color: rgb(49, 49, 153);
+    width: 50vw;
+    height: 100vh;
+}
+body{
+    margin: 0;
+    /* tomuhle se říká resetování stylů */
+}
+/* vw = viewport width */
+/* vh = viewport height */
+/*-----------------------------*/
+
+.obdelnik{
+    width: 20%; 
+    height: 150px;
+    border: 2px solid black;
+    margin: 5px;
+   
+    
+}
+
+.zeleny{
+    background-color: #00FF00;
+    /* display: none; */
+    
+    
+}
+.modry{
+    background-color: #0000FF;
+    
+    /* opacity: 0; */
+}
+.cerveny{
+    background-color: #FF0000;
+}
+
+.obdelnik{
+  float: left;
+}

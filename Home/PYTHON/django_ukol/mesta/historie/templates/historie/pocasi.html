@@ -1,0 +1,9 @@
+{% extends "historie\base\base.html" %}
+{% block title %}Pocasi{% endblock %}
+{% block content %}
+    <h1>Pocasi</h1>
+    <p>{{popis_pocasi|upper}}</p>
+    <p>{{mnozstvi_srazek|add:" - 13.04.2022"}}</p>
+    <p>{{sila_vetru|cut:"?"}}</p>
+    <p>{{bude_dest|yesno:"Ano dnes bude prset,Ne dnes prset nebude"}}</p>
+{% endblock %}

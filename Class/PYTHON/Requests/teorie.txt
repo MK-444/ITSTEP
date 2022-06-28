@@ -1,0 +1,16 @@
+API = application programing interface
+
+3 protokoly:    
+
+SOAP = Simple object access protocol, pouziva XML
+
+REST, REST API, REStful API
+CRUD = create, read, update, delete
+read = GET
+create = POST 
+update = PUT, PATCH
+delete = DELETE 
+
+GraphQl - nejnovejsi
+
+HTTP metody, ktere pouziva REST API - GET, POST, PUT, DELETE

@@ -1,0 +1,12 @@
+csv - comma separated values
+
+(oddelovac nemusi byt vzdy carka,
+muze byt i treba | nebo tabulator
+- u tabulatora lze pouzit zkratka tsv)
+
+priklady:
+Anna,Google,23,50000
+Jana|Microsoft|46|70000 - format csv 
+Pavla   Mozilla 56  60000 - format csv(tsv)
+
+json

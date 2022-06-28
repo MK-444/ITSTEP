@@ -1,0 +1,38 @@
+{% extends 'knihy/base.html' %}
+{% block title %}Nova hniha{% endblock %}
+
+{% block content %}
+    <h1>Zadej novou knihu:</h1>
+    <form method="POST" action="/">
+        {% csrf_token %}
+        <table class="knihy-form">
+            {{ form.as_table}}
+        </table>
+        <button type="submit">Odesli</button>
+    </form>
+{% endblock %}
+
+
+                {% comment %} {{ form.as_p }} {% endcomment %}
+            {% comment %}<table> {{ form.as_table }}</table> {% endcomment %}
+            {% comment %} <ul>
+                {{ form.as_ul }}
+            </ul> {% endcomment %}
+        {% comment %} {{ form.jmeno.label_tah }}
+        {{ form.jmeno }}
+        {{ form.jmeno.errors }} {% endcomment %}
+
+{% comment %}         
+        {% for policko in form %}
+        <p class="cerveny">
+            {{ policko.label_tag }}
+        </p>
+        {{ policko }}
+        {{ policko.errors }}
+        {% endfor %} {% endcomment %}
+
+        {% comment %} <style>.cerveny{
+    font-size: 20px;
+    color: #4fb993;
+}
+</style> {% endcomment %}

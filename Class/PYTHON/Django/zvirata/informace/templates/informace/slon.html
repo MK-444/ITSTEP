@@ -1,0 +1,26 @@
+{% extends "informace\base\base.html" %}
+
+{% block title%}Slon{% endblock %}
+{% block content%}
+    <h1>Tohle je stranka o slonovi jmena {{ jmeno }}</h1>
+    <p>Slon ma {{ barva }} barvu a jeho oblibena cinnost je {{ povolani }}.</p>
+
+    <p>
+        {% if je_hezky %} Dnes je ale krasne!
+        {% else %} Dnes je ale hnusne!
+        {% endif %}
+    </p>
+
+    <p>
+        {% if jmeno|length > 7 %} Ten slon ma ale dlouhe jmeno... 
+        {% elif jmeno|length > 5%} Slon ma stredne dlouhe jmeno...
+        {% else %} Slon ma kratke jmeno... 
+        {% endif %}
+    </p>
+    
+    {% comment tohle je poznamka  %}
+    tohle je poznamka 
+    Tajne heslo: veverka
+    {% endcomment %}
+{% endblock%}
+<!--Tajne heslo : opice--> 

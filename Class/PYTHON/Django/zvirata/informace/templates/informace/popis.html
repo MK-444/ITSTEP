@@ -1,0 +1,14 @@
+{% extends "informace\base\base.html" %}
+
+{% block title %}
+Popis zvirate {{zvire|upper}}
+{% endblock %}
+
+{%block content %}
+<h1>{{zvire|upper}}</h1>
+<p>Zvire {{zvire}} ma tento popis: {{popis}}.</p>
+<p>Hele, pouzivam dedicnost sablon...</p>
+<p>Tohle cele je obsah bloku "content".</p>
+
+{% include "informace\base\obrazek.html" %}
+{% endblock %}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stranka o zirafe...</title>
+</head>
+<body>
+    <h1>Blbosti o zirafe...</h1>
+    <p>{{ slovo }}</p>
+    <p>{{ slovo|upper }}</p>
+    <p>{{ slovo|lower }}</p>
+    <p>Delka slova je{{ slovo|length }}</p>
+    <p><pre>Delka slova je **{{ slovo|center:20 }}**</pre></p>
+    <p>Moje slovo je *{{ slovo|cut:"ec"|upper }}* a to je presne ono</p>
+    <p>{{ text }}</p>
+    <p>{{ text|cut:" " }}</p>
+    <p>{{ cislo }}</p>
+    <p>{{ cislo|add:10 }}</p>
+    <p>{{ cislo_jako_string }}</p>
+    <p>{{ cislo_jako_string|add:"10" }}</p>
+    <p>{{ s2|add:s3 }}</p>
+
+    <p>{{ slovo|phone2numeric }}</p>
+    <p>{{ slovo|make_list }}</p>
+    <p>{{ cislo|make_list }}</p>
+
+    <p>{{ je_hezky|yesno:"Je krasne,Je osklivo"}}</p>
+    <p>{{ je_hezky2|yesno:"Je krasne,Je osklivo"}}</p>
+    <p>{{ je_hezky3|yesno:"Je krasne,Je osklivo,Nemame data o pocasi"}}</p>
+
+    <p>{{ seznam.1.2 }}</p>
+    <p>{{ seznam|first }}</p>
+    <p>{{ seznam|last }}</p>
+
+    <p>{{ angl_slovo }}{{ pocet_psu|pluralize:"ffff,gies" }}</p>
+    <p>p{{ pocet_psu|pluralize:"es,si" }}</p>
+    <p>p{{ 5|pluralize:"es,si" }}</p>
+    <p>kachn{{ 1|pluralize:"a,y" }}</p>
+    <p>kachn{{ 5|pluralize:"a,y" }}</p>
+    <p>cat{{ 1|pluralize }}</p>
+    <p>cat{{ 5|pluralize }}</p>
+
+</body>
+</html>

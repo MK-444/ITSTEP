@@ -1,0 +1,12 @@
+{% extends "informace\base\base.html" %}
+
+{% block title %}Stranka o zviratech{% endblock%}
+{% block content%}
+    <h1>Tady budou vypsana vsechna nase zvirata!</h1>
+    <p>To je super, co?</p>
+    <ul>
+    {% for zvire in zvirata %}
+        <li><a href="{% url "popis_zvirate" zvire %}">{{ forloop.counter }}. {{ zvire }}</a></li>
+    {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,24 @@
+jak iteruje FOR cyklu?
+
+zdalo by se, ze pomoci indexu, ale to neni pravda 
+
+pomoci indexu lze iterovat SEKVENCE, 
+coz jsou, listy, stringy, tuples
+(SEKVENCE = neco, do ceho se da indexovat)
+
+for cyklus umi prochazet treba i mnoziny, slovniky, soubory 
+
+ITERATOR PROTOCOL 
+
+ITERATOR = pozna se tak, ze na nem lze volat next(), 
+a nevyhodi to chybu (krome StopIteration, ktera znamena konec cyklu)
+
+ITERABLE = pozna se tak, ze na ni lze volat iter(), coz vrati ITERATOR
+casto to byvaji sekvence (stringy, listy), ale muzou to bzt i jine veci (sety, slovniky, soubory)
+
+
+python -i lambda.py
+
+petr.sed@centrum.cz
+dozvedet o dalsich kurzu
+reference + potvrzeni o povoleni o jmeno 

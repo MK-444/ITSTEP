@@ -1,0 +1,30 @@
+
+.container{
+    background-color: #f0f0f0;
+}
+.head{
+    background-color:#0e494e;
+    color: #fff;
+    margin-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+    
+
+.body{
+    background-color: #236167;
+    color: #fff;
+    margin-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.wrapp{
+    margin: 0;
+    padding: 0;
+}
+

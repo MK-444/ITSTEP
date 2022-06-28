@@ -1,0 +1,11 @@
+{% extends 'knihy/base.html' %}
+{% block title %}Seznam knih{% endblock %}
+{% block content %}
+    <h1>Moje oblibene knihy</h1>
+    <ol>
+        {% for kniha in knihy %}
+        <li><a href="{{ kniha.get_absolute_url }}">{{ kniha.autor }}: {{ kniha.jmeno }}</a></li>
+        {% endfor %}
+    </ol>
+    <p>Tvoje posledni prohlizena kniha {% if posledni != "zadna" %}je{% else %}neni{% endif %}{{ posledni }}.</p>
+{% endblock content %}

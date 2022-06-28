@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Moje stranka o zviratech{% endblock %}</title>
+    <link rel="stylesheet" href="{% static "informace\styly.css" %}">
+</head>
+<body>
+    <header>Tohle je nase aplikace o zviratech</header>
+    <br>
+    {% block content %}
+    <p>Pro tuto stranku neni k dispozici obsah</p>
+    {% endblock %}
+    <br>
+    <a href="{% url "index" %}">Zpet na seznam zirat...</a>
+    <footer>&copy; MK 2022</footer>
+</body>
+</html>

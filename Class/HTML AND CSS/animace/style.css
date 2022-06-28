@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+.obdelnik {
+    width: 200px;
+    height: 150px;
+    /* border: 1px solid black; */
+    margin: 100px;
+    font-size: 100px;
+    line-height: 150px;
+    align-items: center;
+}
+
+.zeleny {
+    background-color: rgb(56, 221, 56);
+}
+
+.cerveny {
+    background-color: rgb(233, 54, 54);
+}
+
+.modry {
+    background-color: royalblue;
+}
+
+.zeleny:hover {
+    /* transform: translate(200px, 50px); */
+    transform: skew(48deg);
+}
+
+.modry:hover {
+    transform: rotate(180deg) scale(2, 2);
+    background-color: darkblue;
+    color: #fff;
+    /* transform-origin: 100% 100%; */
+}
+
+.cerveny:hover {
+    transform: translateX(200px);
+}
+
+.obdelnik {
+    /* transition-duration: 2s;
+    transition-delay: 3s; */
+    /* transition-property: transform;
+    transition-timing-function: cubic-bezier(0, 0.22, 0.97, 0.99); */
+    transition: 2s transform ease, 3s background-color 2s ease-in, 4s color 5s ease-in-out;
+}
+
+.tlacitko {
+    width: 200px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 10px;
+    background-color: rgb(233, 54, 54);
+    margin: 100px;
+    box-shadow: 10px 10px 17px 5px #3e3e3e;
+    transition: all 1s ease-in 0;
+}
+
+.tlacitko:hover {
+    transform: translate(10px, 10px);
+    box-shadow: 0px 0px 17px 5px #3e3e3e;
+}

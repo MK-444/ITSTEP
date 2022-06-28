@@ -1,0 +1,9 @@
+li{
+    list-style-type: none;
+}
+.social{
+    display: flex;
+    justify-content: flex-end;
+
+}
+

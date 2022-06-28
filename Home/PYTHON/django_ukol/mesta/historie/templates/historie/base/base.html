@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load pwa %}
+<head>
+    {% progressive_web_app_meta %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Stranka o mestech{% endblock%}</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static "historie/styles.css" %}">
+
+</head>
+<body>
+    <!-- HEADER -->
+<header class="l-header">
+    <nav class="nav bd-grid">
+        <a href="{% url  "index" %}" class="nav__logo">Home</a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="{% url "doprava" %}" class="nav__link">Doprava</a></li>
+                <li class="nav__item"><a href="{% url "pocasi" %}" class="nav__link">Počasi</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+{% block content %}
+<ul>
+    {% for mesto1 in mesto %}
+    <li><a href="{% url "mesto" mesto1 %}">{{ forloop.counter }}. {{ mesto1 }}</a></li>
+    {% endfor %}
+    </ul>
+<p>Page is not exist 404</p>
+{% endblock %}
+<footer>
+    &copy; MK 2022
+</footer>
+
+</body>
+</html>

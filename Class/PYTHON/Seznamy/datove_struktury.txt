@@ -1,0 +1,9 @@
+1) LIST - seznam
+2) TUPLE - n-tice
+3) DICTIONARY - slovniky
+4) STRING - řetězce
+string, integer, float, boolean
+5) Ciselne - integer, float, boolean
+
+chybi zde par veci SET (mnozina)
+

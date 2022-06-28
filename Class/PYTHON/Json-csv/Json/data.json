@@ -1,0 +1,23 @@
+{
+    "jmeno": "Maria",
+    "vek": 17,
+    "cislo": 25.0,
+    "sporty": [
+        "fotbal",
+        "basketbal",
+        "hokej"
+    ],
+    "pije mleko": true,
+    "znamky": [
+        1,
+        2,
+        3,
+        4,
+        5
+    ],
+    "domaci zvire": {
+        "jmeno": "Nika",
+        "rasa": "francouzsky buldog",
+        "povolani": "hlidac"
+    }
+}

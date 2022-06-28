@@ -1,0 +1,5 @@
+1) maji index, muzeme pouzivat for cykl
+
+2) v listu muze byt nekolik objektu, stringy nemuzeme zmenit pomoci indexu
+3) join(), upper(), split()
+4) bool
